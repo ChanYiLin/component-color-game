@@ -1,0 +1,30 @@
+/* mode.css */
+
+.mode{
+    text-decoration: none;
+    color: #484848;
+    text-decoration: none;
+    color: #484848;
+    padding: 0 0.5rem;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+}
+
+.mode:hover {
+    color: steelblue;
+}
+
+/*
+div > p: child;
+div + p: sibling;
+*/
+.navbar .selected { 
+    border-radius: 999rem;
+    color: white;
+    font-weight: bold;
+    border-radius: 999rem;
+    color: white;
+    font-weight: bold;
+    background: steelblue;
+}
